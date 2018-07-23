@@ -25,13 +25,6 @@ class Sign
     private $accessKeyId      = '';
     private $accessSecret     = '';
 
-    /** @var array 需要特殊处理的参数 */
-    private $encodeParams     = [
-        '+'   => '%20',
-        '*'   => '%2A',
-        '%7E' => '~',
-    ];
-
     // 参数
     private $params           = [];
     private $type             = 'GET'; //GET POST
@@ -39,6 +32,13 @@ class Sign
     private $signatureMethod  = 'HMAC-SHA1';
     private $version          = '2014-11-11';
     private $signatureVersion = '1.0';
+
+    /** @var array 需要特殊处理的参数 */
+    private $encodeParams     = [
+        '+'   => '%20',
+        '*'   => '%2A',
+        '%7E' => '~',
+    ];
 
     /**
      * Sign constructor.
