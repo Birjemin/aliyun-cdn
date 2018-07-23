@@ -56,7 +56,7 @@ class Cdn implements CdnInterface
     private function execute(array $params)
     {
         try {
-            $this->result = Curl::init()->url($this->buildUrl($params))->data();dd($this->result);
+            $this->result = Curl::init()->url($this->buildUrl($params))->data();
             return $this->parseResult();
         } catch (\Exception $e) {
             throw new CdnException('execute error', (array)$e->getMessage());
