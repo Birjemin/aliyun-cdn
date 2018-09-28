@@ -4,7 +4,7 @@ refresh aliyun's cdn cache
 ### install
 1. composer require birjemin/aliyun-cdn
 2. import `ServiceProvider.php` in `app.php`
-3. excute commadn: `php artisan vendor:publish --provider="Birjemin\AliyunCdn\ServiceProvider"`
+3. excute command: `php artisan vendor:publish --provider="Birjemin\AliyunCdn\ServiceProvider"`
 
 ### Question
 Q1:
