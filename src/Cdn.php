@@ -9,7 +9,7 @@ namespace Birjemin\AliyunCdn;
 
 
 use Birjemin\AliyunCdn\Exception\CdnException;
-use Wenpeng\Curl\Curl;
+use Birjemin\Curl\Curl;
 
 /**
  * Class Cdn
