@@ -1,10 +1,10 @@
 ## AliyunCdn
-refresh aliyun's cdn cache
+刷新aliyun的cdn缓存的laravel package
 
 ### install
 1. composer require birjemin/aliyun-cdn
-2. import `ServiceProvider.php` in `app.php`
-3. excute command: `php artisan vendor:publish --provider="Birjemin\AliyunCdn\ServiceProvider"`
+2. 引入ServiceProvider.php
+3. 执行 `php artisan vendor:publish --provider="Birjemin\AliyunCdn\ServiceProvider"`
 
 ### Question
 Q1:
